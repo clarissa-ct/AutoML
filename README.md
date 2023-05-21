@@ -1,4 +1,4 @@
-Introdução ao AutoML: Recursos e Artigos Relevantes
+INTRODUÇÃO AO AUTOML: ARTIGOS RELEVANTES
 
 Neste documento do GitHub, você encontrará uma coletânea de links para artigos relacionados ao AutoML (Aprendizado de Máquina Automatizado). O AutoML tem se destacado como uma abordagem promissora para simplificar e agilizar o processo de desenvolvimento de modelos de aprendizado de máquina. Ele capacita usuários com diferentes níveis de conhecimento técnico a aproveitar os benefícios do aprendizado de máquina sem exigir um profundo conhecimento em ciência de dados ou programação.
 
