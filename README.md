@@ -10,6 +10,7 @@ Nessa seção os artigos abordam assuntos referentes à introdução ao AutoML, 
 
 
 -  AUTOMATED MACHINE LEARNING: STATE-OF-THE-ART AND OPEN CHALLENGES
+
 link: https://arxiv.org/abs/1906.02287
 
 Resumo:
@@ -48,6 +49,7 @@ Frameworks abordados nesse artigo:
 
 
 - AUTOML IN THE WILD: OBSTACLES, WORKAROUNDS, AND EXPECTATIONS
+
 link: https://dl.acm.org/doi/abs/10.1145/3544548.3581082
 
 Resumo:
@@ -60,6 +62,7 @@ Esse artigo não aborda frameworks específicos.
 
 
 - THE AUTOML JUNGLE-AN OVERVIEW 
+
 link: https://oparu.uni-ulm.de/xmlui/handle/123456789/38670
 
 Resumo: 
@@ -86,6 +89,7 @@ Frameworks abordados nesse artigo:
 
 
 - BENCHMARK AND SURVEY OF AUTOMATED MACHINE LEARNING FRAMEWORKS
+
 link: https://arxiv.org/abs/1904.12054
 
 Resumo:
@@ -114,6 +118,7 @@ Frameworks abordados nesse artigo:
 
 
 - AUTOML: A SURVEY OF THE STATE-OF-THE-ART
+
 link: https://www.sciencedirect.com/science/article/abs/pii/S0950705120307516
 
 Resumo:
