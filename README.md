@@ -8,8 +8,8 @@ Os artigos selecionados abrangem diversos aspectos do AutoML, incluindo conceito
 
 Nessa seção os artigos abordam assuntos referentes à introdução ao AutoML, como seus princípios básicos, sua finalidade e como ele se enquadra no contexto de aprendizagem de máquina. Os artigos citados abaixo são recomendados para quem está começando a explorar o assunto. 
 
+
 -  AUTOMATED MACHINE LEARNING: STATE-OF-THE-ART AND OPEN CHALLENGES
- 
 link: https://arxiv.org/abs/1906.02287
 
 Resumo:
@@ -21,21 +21,33 @@ Ao automatizar o processo de construção de modelos de aprendizado de máquina,
 Frameworks abordados nesse artigo:
 
 1- AutoWeka
+
 2- AutoSklearn
+
 3- TPOT
+
 4- SmartML
+
 5- Auto-MEKAGGP
+
 6- Recipe
+
 7- MLPlan
+
 8- Hyperopt-sklearn
+
 9- Autostacker
+
 10- VDS
+
 11- AlphaD3M
+
 12- OBOE
+
 13- PMF
 
-- AUTOML IN THE WILD: OBSTACLES, WORKAROUNDS, AND EXPECTATIONS
 
+- AUTOML IN THE WILD: OBSTACLES, WORKAROUNDS, AND EXPECTATIONS
 link: https://dl.acm.org/doi/abs/10.1145/3544548.3581082
 
 Resumo:
@@ -46,8 +58,8 @@ Os resultados mostram que os usuários desempenham um papel ativo na superação
 
 Esse artigo não aborda frameworks específicos.
 
-- THE AUTOML JUNGLE-AN OVERVIEW 
 
+- THE AUTOML JUNGLE-AN OVERVIEW 
 link: https://oparu.uni-ulm.de/xmlui/handle/123456789/38670
 
 Resumo: 
@@ -57,16 +69,23 @@ Este artigo apresenta uma visão abrangente de vários frameworks e ferramentas 
 Frameworks abordados nesse artigo:
 
 1-  Scikit-learn
+
 2-  Auto_ml
+
 3- Tree-Based Pipeline Optimization Tool (TPOT)
+
 4- AlphaD3M 
+
 5- Hyperopt-Sklearn
+
 6- H2O
+
 7- Auto-sklearn 
+
 8- Amazon SageMaker Autopilot
 
-- BENCHMARK AND SURVEY OF AUTOMATED MACHINE LEARNING FRAMEWORKS
 
+- BENCHMARK AND SURVEY OF AUTOMATED MACHINE LEARNING FRAMEWORKS
 link: https://arxiv.org/abs/1904.12054
 
 Resumo:
@@ -78,16 +97,23 @@ Além disso, avaliamos as estruturas AutoML selecionadas usando 137 conjuntos de
 Frameworks abordados nesse artigo:
 
 1- Dummy
+
 2- Random Forest
+
 3- TPOT
+
 4- hpsklearn
+
 5- auto-sklearn
+
 6- Random Search
+
 7- ATM
+
 8- H2O AutoML
 
-- AUTOML: A SURVEY OF THE STATE-OF-THE-ART
 
+- AUTOML: A SURVEY OF THE STATE-OF-THE-ART
 link: https://www.sciencedirect.com/science/article/abs/pii/S0950705120307516
 
 Resumo:
