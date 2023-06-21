@@ -132,3 +132,39 @@ Finalmente, algumas questões não resolvidas e desafios relacionados aos métod
 
 Esse artigo não aborda frameworks específicos.
 
+
+2ª Seção - ABORDAGEM BAYESIANA NA OBTENÇÃO DE PESOS PARA ESCALARIZAÇÃO EM OTIMIZAÇÃO MULTIOBJETIVO
+
+Nesta seção, você verá artigos relacionados à abordagem bayesiana na obtenção dos pesos da função de escalarização, que é uma técnica promissora na otimização multiobjetivo. Essa abordagem utiliza métodos estatísticos baseados em processos de aprendizagem para inferir os pesos adequados, considerando a incerteza e as preferências do tomador de decisão.
+
+
+- A BAYESIAN APPROACH TO CONSTRAINED SINGLEAND MULTI-OBJECTIVE OPTIMIZATION 
+
+link: https://link.springer.com/article/10.1007/s10898-016-0427-3 
+
+
+Este artigo aborda o problema da otimização sem derivadas (mono ou multiobjetivo) sujeita a múltiplas restrições de desigualdade. Tanto as funções objetivo quanto as funções de restrição são assumidas como suaves, não lineares e custosas para avaliar. Como consequência, o número de avaliações que podem ser utilizadas para realizar a otimização é muito limitado, como em problemas complexos de otimização de design industrial. O método proposto para superar essa dificuldade tem suas raízes tanto na literatura de otimização bayesiana quanto na de otimização multiobjetivo. Mais especificamente, é utilizada uma regra de dominação estendida para lidar com objetivos e restrições de forma unificada, e é proposto um critério de amostragem correspondente de melhoria esperada do hiper-volume. Esse novo critério é naturalmente adaptado para a busca de um ponto viável quando nenhum está disponível e reduz-se a critérios de amostragem bayesianos existentes - o critério clássico de Melhoria Esperada (EI) e algumas de suas extensões para restrições/multiobjetivo - assim que pelo menos um ponto viável estiver disponível. O cálculo e a otimização do critério são realizados utilizando técnicas de Monte Carlo sequenciais. Em particular, é utilizado um algoritmo semelhante ao método de simulação de subconjuntos, bem conhecido no campo de confiabilidade estrutural, para estimar o critério. O método, chamado BMOO (para Bayesian Multi-Objective Optimization), é comparado a algoritmos de ponta para otimização com restrições mono e multiobjetivo.
+
+
+- BAYESIAN OPTIMIZATION FOR MULTI-OBJECTIVE OPTIMIZATION AND MULTI-POINT SEARCH
+
+link: https://arxiv.org/abs/1905.02370 
+
+
+Este artigo aborda o tema da otimização bayesiana, que é um método eficaz para otimizar funções objetivo desconhecidas com altos custos de avaliação. Normalmente, os algoritmos de otimização bayesiana selecionam um ponto por iteração para funções objetivo únicas. No entanto, nos últimos anos, foram propostas abordagens de otimização bayesiana para otimização multiobjetivo ou busca de vários pontos por iteração. No entanto, até o momento, não se conhece uma abordagem bayesiana de otimização que possa lidar com ambos os casos simultaneamente, de forma não heurística. Neste artigo, é proposto um algoritmo de otimização bayesiana que pode lidar com a otimização multiobjetivo e a busca de múltiplos pontos ao mesmo tempo. Primeiramente, é definida uma função de aquisição que considera tanto a otimização multiobjetivo quanto a busca de múltiplos pontos. É difícil maximizar analiticamente essa função de aquisição, pois o custo computacional é proibitivo, mesmo quando são realizados cálculos aproximados, como a aproximação por amostragem. Portanto, é proposto um método preciso e computacionalmente eficiente para estimar o gradiente da função de aquisição, e é desenvolvido um algoritmo para a otimização bayesiana com otimização multiobjetivo e busca de múltiplos pontos. Experimentos numéricos mostram que o desempenho do método proposto é comparável ou superior ao de métodos heurísticos existentes.
+
+
+- AN ADAPTIVE BAYESIAN APPROACH TO SURROGATE-ASSISTED EVOLUTIONARY MULTI-OBJECTIVE OPTIMIZATION
+
+link: https://www.sciencedirect.com/science/article/pii/S0020025520300591 
+
+
+Este artigo aborda o uso de modelos substitutos para resolver problemas de otimização multiobjetivo (MOPs) com alta carga computacional. O algoritmo de otimização global eficiente (EGO), uma abordagem bayesiana para otimização assistida por modelos substitutos, tem se tornado muito popular na otimização evolutiva assistida por modelos substitutos. Neste artigo, é proposta uma abordagem bayesiana adaptativa para algoritmo evolutivo assistido por modelos substitutos para resolver MOPs com alto custo computacional. A ideia principal é ajustar o hiperparâmetro na função de aquisição de acordo com a dinâmica da busca para determinar quais soluções candidatas devem ser avaliadas usando as caras funções objetivo reais. Além disso, o critério de seleção de amostragem alterna entre uma distância baseada em ângulo e uma distância penalizada por ângulo ao longo da otimização para alcançar um melhor equilíbrio entre exploração e explotação. O desempenho do algoritmo proposto é avaliado em um conjunto de problemas de referência e um problema de otimização de aerofólio usando no máximo 300 avaliações reais de aptidão. Os resultados experimentais mostram que o algoritmo proposto é competitivo em comparação com quatro algoritmos evolutivos multiobjetivo populares
+
+
+- SCALARIZING FUNCTIONS IN BAYESIAN MULTIOBJECTIVE OPTIMIZATIONS
+
+link: https://arxiv.org/pdf/1904.05760.pdf 
+
+
+O principal objetivo deste artigo é estudar e revisar o uso de diferentes funções de escalarização no contexto da otimização multiobjetivo bayesiana. As funções de escalarização são amplamente utilizadas para converter um problema de otimização multiobjetivo em um problema de otimização de único objetivo. No entanto, seu uso na resolução de problemas de otimização multiobjetivo (computacionalmente) caros e com muitos objetivos é escasso. Essas funções podem desempenhar um papel crucial na qualidade e no número de avaliações necessárias durante a otimização. Neste artigo, são estudadas e revisadas 15 funções de escalarização diferentes, e são construídos modelos de processo gaussiano (como modelos substitutos, metamodelos ou emuladores) para representá-las. A função de melhoria esperada é utilizada como critério de aquisição para atualizar os modelos. Em particular, são comparadas diferentes funções de escalarização e é analisado o desempenho delas em vários problemas de referência com diferentes números de objetivos a serem otimizados. A revisão e os experimentos com diferentes funções fornecem insights úteis para a seleção e uso de uma função de escalarização em métodos de otimização multiobjetivo bayesiana.
