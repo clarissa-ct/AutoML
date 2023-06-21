@@ -133,6 +133,7 @@ Finalmente, algumas questões não resolvidas e desafios relacionados aos métod
 Esse artigo não aborda frameworks específicos.
 
 
+
 2ª Seção - ABORDAGEM BAYESIANA NA OBTENÇÃO DE PESOS PARA ESCALARIZAÇÃO EM OTIMIZAÇÃO MULTIOBJETIVO
 
 Nesta seção, você verá artigos relacionados à abordagem bayesiana na obtenção dos pesos da função de escalarização, que é uma técnica promissora na otimização multiobjetivo. Essa abordagem utiliza métodos estatísticos baseados em processos de aprendizagem para inferir os pesos adequados, considerando a incerteza e as preferências do tomador de decisão.
